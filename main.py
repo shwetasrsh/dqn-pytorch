@@ -185,7 +185,7 @@ if __name__ == '__main__':
     steps_done = 0
 
     # create environment
-    env = gym.make("PongNoFrameskip-v4")
+    env = gym.make("Breakout-v4")
     env = make_env(env)
 
     # initialize replay memory
