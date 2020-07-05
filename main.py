@@ -193,7 +193,7 @@ if __name__ == '__main__':
     
     # train model
     #train(env, 400)
-    train(env, 50)
+    train(env, 100)
     torch.save(policy_net, "dqn_pong_model")
     policy_net = torch.load("dqn_pong_model")
     test(env, 1, policy_net, render=False)
